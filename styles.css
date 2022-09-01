@@ -1,0 +1,361 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+body {
+    background-image: url(./img/Fondo/wall.jpeg);
+    background-size: cover;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 65px;
+    padding: 0px 70px 0px 70px;
+    position: fixed;
+    top: 0;
+}
+
+header h1 {
+    color: rgb(236, 236, 236);
+    width: 200px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+    font-weight: 1000;
+    cursor: pointer;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+.navbar ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 100px;
+
+}
+
+.navbar ul li a {
+    color: #dddcde;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 20px;
+
+}
+
+.navbar ul li a:hover {
+    background-color: #FFE000;
+    color: gray;
+    border-radius: 20px;
+}
+
+
+#hero {
+    display: flex;
+    margin-top: 65px;
+    padding: 70px 0;
+    max-width: 1200px;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    gap: 10px;
+    color: #dddcde;
+    width: 50%;
+}
+
+.welcome h2 {
+    font-size: 40px;
+
+}
+
+.welcome h1 {
+    font-size: 90px;
+}
+
+.welcome p {
+    font-size: 20px;
+}
+
+.welcome a {
+    display: flex;
+    padding: 20px;
+    width: 400px;
+    color: #777479;
+    font-weight: 800;
+    background-color: #FFE000;
+    border-radius: 8px;
+}
+
+#target {
+    display: flex;
+    flex-direction: column;
+    margin-top: 65px;
+    padding: 70px 0;
+    max-width: 1200px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#target h2 {
+    font-family: 'Qwitcher Grypen', cursive;
+    font-size: 150px;
+    color: #ffea00;
+
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    padding: 40px 0;
+    max-width: 1200px;
+    color: #79d607;
+
+}
+
+
+
+
+
+.drink1 {
+    padding: 15px;
+    width: 232px;
+    height: 400px;
+    background-color: transparent;
+    opacity: 1;
+
+}
+
+.drink1 img {
+    width: 200px;
+    border-radius: 10px;
+}
+
+.drink1 h3 {
+    font-family: 'Qwitcher Grypen', cursive;
+    text-align: center;
+    font-size: 50px;
+
+}
+
+.drink2 {
+    padding: 15px;
+    width: 232px;
+    height: 400px;
+    background-color: transparent;
+    opacity: 1;
+}
+
+.drink2 img {
+    width: 200px;
+    border-radius: 10px;
+}
+
+.drink2 h3 {
+    font-family: 'Qwitcher Grypen', cursive;
+    text-align: center;
+    font-size: 50px;
+
+}
+
+
+
+.drink3 {
+    padding: 15px;
+    width: 232px;
+    height: 400px;
+    background-color: transparent;
+    opacity: 1;
+
+}
+
+.drink3 img {
+    width: 200px;
+    border-radius: 10px;
+}
+
+.drink3 h3 {
+    font-family: 'Qwitcher Grypen', cursive;
+    text-align: center;
+    font-size: 50px;
+}
+
+
+
+.drink4 {
+    padding: 15px;
+    width: 232px;
+    height: 400px;
+    background-color: transparent;
+    opacity: 1;
+}
+
+
+.drink4 img {
+    width: 200px;
+    border-radius: 10px;
+}
+
+.drink4 h3 {
+    font-family: 'Qwitcher Grypen', cursive;
+    text-align: center;
+    font-size: 50px;
+}
+
+
+
+.drink5 {
+    padding: 15px;
+    width: 232px;
+    height: 400px;
+    background-color: transparent;
+    opacity: 1;
+}
+
+.drink5 img {
+    width: 200px;
+    border-radius: 10px;
+}
+
+.drink5 h3 {
+    font-family: 'Qwitcher Grypen', cursive;
+    text-align: center;
+    font-size: 50px;
+}
+
+
+
+.drink6 {
+    padding: 15px;
+    width: 232px;
+    height: 400px;
+    background-color: transparent;
+    opacity: 1;
+}
+
+.drink6 img {
+    width: 200px;
+
+    border-radius: 10px;
+}
+
+.drink6 h3 {
+    font-family: 'Qwitcher Grypen', cursive;
+    text-align: center;
+    font-size: 50px;
+}
+
+
+.drink7 {
+    padding: 15px;
+    width: 232px;
+    height: 400px;
+    background-color: transparent;
+    opacity: 1;
+}
+
+.drink7 img {
+    width: 200px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.drink7 h3 {
+    font-family: 'Qwitcher Grypen', cursive;
+    text-align: center;
+    font-size: 50px;
+}
+
+
+.drink8 {
+    padding: 15px;
+    width: 232px;
+    height: 400px;
+    background-color: transparent;
+    opacity: 1;
+}
+
+.drink8 img {
+    width: 200px;
+    border-radius: 10px;
+}
+
+.drink8 h3 {
+    font-family: 'Qwitcher Grypen', cursive;
+    text-align: center;
+    font-size: 50px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 8px 10px;
+    background-color: #ffea00;
+}
+
+.links-footer ul{
+display: flex;
+flex-direction: row;
+gap: 25px;
+
+
+
+}
+
+
+.links-footer ul li{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border-radius: 6px;
+}
+
+.links-footer ul li:last-child{
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.links-footer ul li a{
+    color: #777479;
+}
+
+.links-footer ul li a:hover{
+    color: #FFE000;
+
+}
